@@ -15,12 +15,12 @@ char ENTERED_PIN[] = "--------";
 int enteredChars = -1;
 
 const char COMMAND_TO_DIGIT[] = {
-    0, 0, 0, 0, 0, 0, 0, 0, 0, '1', 0, 0, 0, '4', 0, 0,
-    0, '7', '0', 0, 0, '8', 0, '9', 0, '5', 0, '6', 0, '2', 0, '3'
+  0, 0, 0, 0, 0, 0, 0, 0, 0, '1', 0, 0, 0, '4', 0, 0,
+  0, '7', '0', 0, 0, '8', 0, '9', 0, '5', 0, '6', 0, '2', 0, '3'
 };
 
 
-bool __attribute__ ((noinline)) checkPIN() {
+bool __attribute__((noinline)) checkPIN() {
   for (int i = 0; i < 8; i++) {
     if (ENTERED_PIN[i] != (ENCRYPTED_PIN[i] ^ XOR_KEY)) {
       return false;

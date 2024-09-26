@@ -3,7 +3,12 @@
 
 const int IR_RECEIVE_PIN = 2;
 
-const char FLAG[] = "flag{**********}";
+#if 0
+const char FLAG[] = "flag{8_bit_fun!}";
+#else
+const char FLAG[] = "flag{??????????}";
+#endif
+
 const char ENCRYPTED_PIN[] = "BCMIJKLB";  // 89730168
 const int XOR_KEY = 0x7A;
 char ENTERED_PIN[] = "--------";

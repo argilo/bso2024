@@ -10,7 +10,7 @@ char ENTERED_PIN[] = "--------";
 int enteredChars = -1;
 
 
-bool checkPIN() {
+bool __attribute__ ((noinline)) checkPIN() {
   for (int i = 0; i < 8; i++) {
     if (ENTERED_PIN[i] != (ENCRYPTED_PIN[i] ^ XOR_KEY)) {
       return false;

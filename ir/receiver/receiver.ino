@@ -1,3 +1,4 @@
+#define DECODE_NEC
 #include <IRremote.hpp>
 
 const int IR_RECEIVE_PIN = 2;

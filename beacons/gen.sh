@@ -22,7 +22,7 @@ do
     echo $number "${flags[$i]}"
     qrencode \
         -l H \
-        -s 18 \
+        -s 15 \
         -o "${filename}"_tmp.png \
         "${flags[$i]}"
     convert \
@@ -31,9 +31,9 @@ do
         -gravity center \
         -extent 2000x1200 \
         -pointsize 150 \
-        -annotate +700-200 "${number}" \
+        -annotate +700-250 "${number}" \
         -pointsize 60 \
-        -annotate +700+200 'This device is\npart of the\nBSides Ottawa\nCTF.' \
+        -annotate +700+150 'This device is\npart of the\nBSides Ottawa\nCTF.' \
         "${filename}".png
     rm "${filename}"_tmp.png
 done

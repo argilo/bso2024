@@ -50,7 +50,7 @@ blocks:
   parameters:
     affinity: ''
     alias: ''
-    amp: '0.4'
+    amp: 0.99 / 2
     comment: ''
     freq: '100000'
     maxoutbuf: '0'
@@ -73,7 +73,7 @@ blocks:
   parameters:
     affinity: ''
     alias: ''
-    amp: '0.4'
+    amp: 0.99 / 2
     comment: ''
     freq: '101000'
     maxoutbuf: '0'

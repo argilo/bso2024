@@ -3,7 +3,7 @@ Description=BSides Ottawa CTF challenges
 After=usrp-hwd.service
 
 [Service]
-ExecStart=/usr/lib/uhd/examples/tx_samples_from_file --file /data/ctf.cs16 --repeat --rate 2000000 --freq 903000000 --gain 30 --spb 16384
+ExecStart=/usr/lib/uhd/examples/tx_samples_from_file --file /data/ctf.cs16 --repeat --rate 1920000 --freq 903000000 --gain 30 --spb 16384
 WorkingDirectory=/home/root
 User=root
 Restart=always

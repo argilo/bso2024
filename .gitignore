@@ -1,6 +1,16 @@
+__pycache__/
 /beacons/final.png
 /e310/two_tone.py
 /e310/test.cs16
+/fm/broadcast.sigmf-meta
+/fm/broadcast.sigmf-data
+/fm/demod.cf32
+/fm/demod.f32
+/fm/flag1.png
+/fm/weird_fm.py
+/fm/*.mp3
+/fm/solution.py
+/fm/part4_bits.bin
 /hop/hop.py
 /hop/hop.sigmf-meta
 /hop/hop.sigmf-data

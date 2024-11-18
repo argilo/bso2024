@@ -15,3 +15,7 @@ __pycache__/
 /hop/hop.sigmf-meta
 /hop/hop.sigmf-data
 /ir/receiver/build
+/paint/flag.png
+/paint/paint_tx.py
+/paint/paint.sigmf-meta
+/paint/paint.sigmf-data

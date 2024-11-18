@@ -1,4 +1,5 @@
 __pycache__/
+/ctf.cs16
 /beacons/final.png
 /e310/two_tone.py
 /e310/test.cs16
@@ -15,7 +16,7 @@ __pycache__/
 /hop/hop.sigmf-meta
 /hop/hop.sigmf-data
 /ir/receiver/build
-/paint/flag.png
+/paint/flag*.png
 /paint/paint_tx.py
-/paint/paint.sigmf-meta
-/paint/paint.sigmf-data
+/paint/paint*.sigmf-meta
+/paint/paint*.sigmf-data

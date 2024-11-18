@@ -7,10 +7,12 @@ __pycache__/
 /fm/broadcast.sigmf-data
 /fm/demod.cf32
 /fm/demod.f32
+/fm/demod2.f32
 /fm/flag1.png
 /fm/weird_fm.py
 /fm/*.mp3
 /fm/solution.py
+/fm/solution2.py
 /fm/part4_bits.bin
 /hop/hop.py
 /hop/hop.sigmf-meta

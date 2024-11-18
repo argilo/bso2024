@@ -150,7 +150,7 @@ blocks:
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
       eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum. " * 10 + "Part 4:
+      in culpa qui officia deserunt mollit anim id est laborum. " * 10 + "Part 5:
       flag{frEqu3nCy_sH1F7_k3y1nG} "'
   states:
     bus_sink: false
@@ -271,7 +271,7 @@ blocks:
   id: variable
   parameters:
     comment: ''
-    value: '"flag{foo_bar_baz_cux}"'
+    value: '"Part 1: flag{rDs_r4d1oT3xt}"'
   states:
     bus_sink: false
     bus_source: false
@@ -1066,8 +1066,8 @@ blocks:
     repeat: 'True'
     tags: '[]'
     type: complex
-    vector: (0,)*110 + morse_table.morse_seq("Hello GNU Radio Conference. For part
-      1 the flag is electromagnetism") + (0,)*110
+    vector: (0,)*110 + morse_table.morse_seq("Hello BSides Ottawa. For part 2 the
+      flag is galvanometer") + (0,)*110
     vlen: '1'
   states:
     bus_sink: false
